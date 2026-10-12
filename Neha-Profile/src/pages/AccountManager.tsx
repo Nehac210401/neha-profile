@@ -3,17 +3,16 @@ import ExperienceSection from "../components/ExperienceSection";
 import SkillsSection from "../components/SkillsSection";
 import { experienceByTrack } from "../data/experience";
 import { skillsByTrack } from "../data/skills";
+import "../Styles/AccountManager.css";
 
 export default function AccountManager(){
     return(
         <div>
             <section>
-                <div>
-                    <Link to="/">Profile</Link>
-                </div>
-                <h2>Account Manager</h2>
-                <h3>2023-2025</h3>
-                <p>Through FEI's Account Manager program and client facing internship at Performiq AB, I built a solid grounding in B2B and Saas sales. CRM systems and customer lifecycle management, upsales, resales etc. The much deeper understanding of customer need and requirement analysis.</p>
+                    <Link to="/">My Profile</Link>
+                <h1>Account Manager</h1>
+                <h2>2023-2025</h2>
+                <p>Co-ordinated meetings between clients and account management teams. Created client communication materials for presentations and updates to enhance engagement. Developed and maintained relationships with clients to ensure customer satisfaction. Evaluated market trends and competitors' activities to identify growth opportunities. Collected and analysed customer feedback through surveys and interviews to pinpoint areas for improvement. Conducted regular meetings with clients to discuss strategies for improving their accounts. Listened to customer needs to identify and recommened best products and services. <br></br>I specialized in B2B sales with a strong focus on Saas platfroms. Knowledge of CRM system and digital communication tools. Experience in customer lifecycle management and business strategy development. A solid understanding of customer-facing work and relationship management.</p>
             </section>
 
             <ExperienceSection title="Experience" items={experienceByTrack["account-manager"]}/>

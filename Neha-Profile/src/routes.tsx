@@ -1,7 +1,7 @@
 import type {RouteObject} from "react-router";
 import App from "./App";
 import Home from "./pages/Home";
-import Accountant from "./pages/Accountant";
+import Accountant from "./pages/Accounting";
 import AccountManager from "./pages/AccountManager";
 import Administrator from "./pages/Administrator";
 import FrontEndDeveloper from "./pages/FrontendDevleoper";

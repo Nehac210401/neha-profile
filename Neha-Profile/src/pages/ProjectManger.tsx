@@ -1,22 +1,22 @@
 import { Link } from "react-router";
 import ExperienceSection from "../components/ExperienceSection";
 import { experienceByTrack } from "../data/experience";
+import "../Styles/ProjectManager.css";
 
 export default function ProjectManager() {
   return (
     <div className="track-pm">
       <section className="hero wrap">
-        <div className="track-switch">
-          <Link to="/">← Profile</Link>
-        </div>
-        <h1>
-          Project Manager, (ongoing)
-        </h1>
-        <p className="lead">
-         Understanding of the project management requirements. Deeper understanding of agile and scrum technologies. Also how to make the project a sucess and the profitable.
-        </p>
-      </section>
-
+  <div className="track-switch">
+    <Link to="/">My Profile</Link>
+  </div>
+  <h1>Project Manager, (ongoing)</h1>
+  <p className="lead">
+    Understanding of the project management requirements. Deeper understanding
+    of agile and scrum technologies. Also how to make a project a success and
+    profitable.
+  </p>
+</section>
       <ExperienceSection title="What the course covered" items={experienceByTrack["project-manager"]} />
 
       <section className="wrap">
